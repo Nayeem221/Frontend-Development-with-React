@@ -1,0 +1,1576 @@
+@media (max-width: 575.98px) { 
+    .navbar {
+        padding: 0;
+        position: static;
+        
+        background-color: bisque;
+    }
+    .navbar-toggler{
+        border: none;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+        
+    }
+    .navbar-collapse {
+        
+        align-items: center;
+        padding: 15px;
+        background: rgb(147, 130, 109);
+       
+    }
+    .navbar-collapse ul{
+         
+        column-gap: 5px !important;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .navbar-toggler i{
+        color:  #4756DF;
+    }
+    #bannerpart h1 {
+        font-size: 23px;
+        line-height: 120%;
+    }
+    #bannerpart p {
+        font-size: 12px;
+        line-height: 16px;
+        margin: 10px 0 10px 0;
+    }
+    #bannerpart .overlay {
+            
+        padding-top: 50px !important;
+    }
+    #bannerpart .mainbannerslider {
+        height: 100px;
+       
+    }
+    
+    .btn1 {
+        padding: 4px 16px;
+        
+        font-size: 12px;
+        margin-top: 6px;
+       
+    }
+    #bannerpart .bannerslider ul{
+        column-gap: 5px;
+    }
+    #bannerpart .bannerslider ul button {
+        
+        height: 16px;
+        width: 16px;
+        
+    }
+    
+    #success_part{
+        padding-top: 55px;
+    }
+    #success_part .container .main {
+        
+        padding: 15px;
+        border-radius: 10px;
+    }
+    #success_part .main .row .left h3 {
+        font-size: 18px;
+        line-height: auto;
+        text-align: center;
+       
+    }
+    #success_part .main .row .left h2 {
+        font-size: 25px;
+    }
+    #success_part .container .main .right {
+        flex-direction: column;
+        text-align: center;
+    }
+    #success_part .main .row .left h2 {
+        text-align: center;
+        margin-bottom: 15px;
+        margin-right: 150px;
+    }
+    #success_part .main .row .right .one h3 {
+    
+        border: 1px solid skyblue;
+        border-radius: 10px;
+    }
+    #success_part .container .main .left h3 {
+        font-size: 25px;
+        line-height: 120%;
+        font-weight: 500;
+        color: #6a4df4;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #servicepart {
+        padding:50px 0;
+    }
+    #servicepart .title h2 {
+       
+        font-size: 25px;
+       
+    }
+    #servicepart .title p {
+      
+        font-size: 13px;
+        line-height: 22px;
+       
+       
+    }
+    #servicepart .row .text {
+        
+        padding: 30px 15px;
+        
+    }
+    #servicepart .row .text h3 {
+        margin: 30px auto 20px 0;
+        font-size: 20px;
+        
+    }
+    
+    img, svg {
+        vertical-align: middle;
+        width: 70px;
+    }
+    
+    #recentpart {
+        padding-top: 31px;
+    }
+    #recentpart .container .title h3 {
+        font-size: 25px;
+        
+    }
+    #recentpart .container .title p {
+        font-size: 13px;
+      
+        line-height: 22px;
+       
+    }
+    #recentpart .row .main {
+        text-align: center;
+        color: white;
+        border-radius: 25px;
+        margin-top: 106px;
+        overflow: hidden;
+        
+    }
+    #recentpart .row .main img{
+        width: 100%;
+    }
+    #recentpart .row .main h3 {
+        font-size: 14px;
+    
+    }
+    #recentpart .row .main p {
+        font-size: 12px;
+        line-height: 15px;
+        width: 90%;
+        margin: 0 auto;
+       
+    }
+    #agence .title h3 {
+        font-size: 25px;
+       
+    }
+    #agence .title p {
+        font-size: 11px;
+       
+    }
+    #agence .agence {
+        width: 100%;
+        height: auto;
+        display: none;
+    }
+    #agence{
+       padding: 50px 0;
+    }
+    #agence .main img{
+        width: 40px;
+    }
+    #agence .main .text h3{
+        font-size: 18px;
+        color: rgb(174, 166, 166);
+    }
+    #agence .main .text p{
+        font-size: 14px;
+        line-height: 21px;
+        color: rgb(190, 180, 180);
+    }
+    #agence .main .top{
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+    }
+    #agence .main .top:nth-child(even){
+        flex-direction: row-reverse;
+        text-align: right;
+    }
+    #agence .row .main {
+       
+        row-gap: 20px;
+    }
+    #agence .row{
+        row-gap: 20px;
+        background:url(../images/agence.jpg) no-repeat center /cover;
+        padding-top: 20px;
+        position: relative;
+        z-index: 1;
+    }
+    #agence .row::after{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
+        z-index: -1;
+    }
+    #reviewpart .title h3 {
+        font-size: 25px;
+        
+    }
+    #reviewpart .title p {
+        font-size: 11px;
+        
+    }
+    #reviewpart .child{
+        
+        padding: 20px 30px;
+       
+    }
+    #reviewpart .child {
+        font-size: 10px;
+    }
+     #reviewpart .child img {
+       height: 63px;
+       
+    }
+    .reviewslider .prev{
+        width: 10px;
+        height:10px; 
+        line-height: 10px;
+    }
+    .reviewslider .next{
+        width: 10px;
+        height:10px;
+        line-height: 10px;
+    }
+
+    #formpart form {
+        width: 100%;
+       
+    }
+    #formpart form h3 {
+       
+        font-size: 20px;
+       
+    }
+    #formpart form button {
+        font-size: 11px;
+        line-height: 26px;
+        font-weight: 600;
+        border-radius: 10px;
+        height: 36px;
+        width: 205px;
+        background: #6A4DF4;
+        border: none;
+        color: white;
+    }
+    #formpart form {
+       
+        padding: 30px 20px;
+        
+    }
+    #formpart .formtext{
+        text-align: center;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #formpart .formtext h3 {
+        font-size: 25px;
+        font-weight: 700;
+        max-width:500px ;
+    }
+    #formpart .formtext p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 15px;
+        margin: 20px 0 10px 0;
+    }
+    #formpart .formtext span{
+        font-size: 14px;
+    }
+    footer .row .about {
+        display: flex;
+        column-gap: 10px;
+        margin-left: 0px;
+        margin-top: 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .hr{
+        height: 1px;
+        width: 300px;
+      
+    }
+    
+    footer .row .about h4 {
+        font-size: 12px;
+        font-weight: 600;
+        margin-bottom: 28px;
+    }
+    footer .row .about ul li a {
+        color: #7B7B7B;
+        line-height: 40px;
+        font-size: 9px;
+    }
+    
+       
+    }
+    @media (max-width: 767.98px) {
+        .navbar {
+            padding: 0;
+            position: static;
+            
+            background-color: bisque;
+        }
+        #bannerpart h1 {
+            font-size: 27px;
+            font-weight: 700;
+            line-height: 120%;
+            max-width: 950px;
+            color: white;
+            text-align: center;
+        }
+        
+        #formpart .formtext h3 {
+            font-size: 25px;
+            font-weight: 700;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        footer .row .about ul li a {
+            color: #7B7B7B;
+            line-height: 40px;
+            font-size: 21px;
+        }
+        footer .row .about h4 {
+            font-size: 19px;
+            font-weight: 600;
+            margin-bottom: 28px;
+        }
+        footer p {
+            font-size: 19px;
+            font-weight: 400;
+            line-height: 26px;
+            margin-top: 30px;
+        }
+        .navbar-toggler{
+            border: none;
+        }
+        .navbar-toggler:focus {
+            text-decoration: none;
+            outline: 0;
+            box-shadow: none;
+            
+        }
+        .navbar-collapse {
+            
+            align-items: center;
+            padding: 15px;
+            background: rgb(147, 130, 109);
+           
+        }
+        .navbar-collapse ul{
+             
+            column-gap: 5px !important;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        
+        .navbar-toggler i{
+            color:  #4756DF;
+        }
+        
+        #bannerpart p {
+            font-size: 12px;
+            line-height: 19px;
+            margin: 10px 0 10px 0;
+        }
+        
+        #bannerpart .mainbannerslider {
+            height: 330px;
+           
+        }
+        
+        .btn1 {
+            padding: 4px 16px;
+            
+            font-size: 12px;
+            margin-top: 6px;
+           
+        }
+        #bannerpart .bannerslider ul{
+            column-gap: 5px;
+        }
+        #bannerpart .bannerslider ul button {
+            
+            height: 16px;
+            width: 16px;
+            
+        }
+        #textpart{
+            padding-top: 55px;
+        }
+        #textpart .container .main {
+            
+            padding: 15px;
+            border-radius: 10px;
+            
+        }
+        #textpart .main .row .left h3 {
+            font-size: 21px;
+            line-height: auto;
+            text-align: center;
+           
+        }
+        #textpart .main .row .left h2 {
+            font-size: 20px;
+        line-height: 16px;
+        margin: 0 auto;
+            
+        }
+        #textpart .container .main .right {
+            flex-direction: column;
+            text-align: center;
+        }
+        
+        #textpart .main .row .left h2 {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        #textpart .main .row .right .one h3 {
+        
+            border: 1px solid skyblue;
+            border-radius: 10px;
+        }
+        #textpart .main .row .right .one h3 {
+            font-size: 32px;
+            font-weight: 700;
+            color: #151515;
+            margin-bottom: 20px;
+        }
+        #servicepart {
+            padding:50px 0;
+        }
+        #servicepart .title h2 {
+           
+            font-size: 25px;
+           
+        }
+        #servicepart .title p {
+          
+            font-size: 13px;
+            line-height: 22px;
+           
+           
+        }
+        #servicepart .row .text {
+            
+            padding: 30px 15px;
+            
+        }
+        #servicepart .row .text h3 {
+            margin: 30px auto 20px 0;
+            font-size: 20px;
+            
+        }
+        
+        img, svg {
+            vertical-align: middle;
+            width: 70px;
+        }
+        
+        #recentpart {
+            padding-top: 31px;
+        }
+        #recentpart .container .title h3 {
+            font-size: 25px;
+            
+        }
+        #recentpart .container .title p {
+            font-size: 13px;
+          
+            line-height: 22px;
+           
+        }
+        #recentpart .row .main {
+            text-align: center;
+            color: white;
+            border-radius: 25px;
+            margin-top: 106px;
+            overflow: hidden;
+            
+        }
+        #recentpart .row .main img{
+            width: 100%;
+        }
+        #recentpart .row .main h3 {
+            font-size: 14px;
+        
+        }
+        #recentpart .row .main p {
+            font-size: 12px;
+            line-height: 15px;
+            width: 90%;
+            margin: 0 auto;
+           
+        }
+        #agence .title h3 {
+            font-size: 25px;
+           
+        }
+        #agence .title p {
+            font-size: 11px;
+           
+        }
+        #agence .agence {
+            width: 100%;
+            height: auto;
+            display: none;
+        }
+        #agence{
+           padding: 50px 0;
+        }
+        #agence .main img{
+            width: 40px;
+        }
+        #agence .main .text h3{
+            font-size: 18px;
+            color: rgb(174, 166, 166);
+        }
+        #agence .main .text p{
+            font-size: 14px;
+            line-height: 21px;
+            color: rgb(190, 180, 180);
+        }
+        #agence .main .top{
+            display: flex;
+            align-items: center;
+            column-gap: 20px;
+        }
+        #agence .main .top:nth-child(even){
+            flex-direction: row-reverse;
+            text-align: right;
+        }
+        #agence .row .main {
+           
+            row-gap: 20px;
+        }
+        #agence .row{
+            row-gap: 20px;
+            background:url(../images/agence.jpg) no-repeat center /cover;
+            padding-top: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        #agence .row::after{
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: -1;
+        }
+        #reviewpart .title h3 {
+            font-size: 28px;
+            
+        }
+        #reviewpart .title p {
+            font-size: 15px;
+            
+        }
+        #reviewpart .child{
+            
+            padding: 20px 30px;
+           
+        }
+        #reviewpart .child {
+            font-size: 10px;
+        }
+         #reviewpart .child img {
+           height: 63px;
+           
+        }
+        .reviewslider .prev{
+            width: 20px;
+            height:20px; 
+            line-height: 20px;
+        }
+        .reviewslider .next{
+            width: 20px;
+            height:20px;
+            line-height: 20px;
+        }
+    
+        #formpart form {
+            width: 100%;
+           
+        }
+        #formpart form h3 {
+           
+            font-size: 20px;
+           
+        }
+        #formpart form button {
+            font-size: 11px;
+            line-height: 26px;
+            font-weight: 600;
+            border-radius: 10px;
+            height: 36px;
+            width: 205px;
+            background: #6A4DF4;
+            border: none;
+            color: white;
+        }
+        #formpart form {
+           
+            padding: 30px 20px;
+            
+        }
+        #formpart .formtext{
+            text-align: center;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        #formpart .formtext h3 {
+            font-size: 25px;
+            font-weight: 700;
+            max-width:500px ;
+        }
+        #formpart .formtext p {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 15px;
+            margin: 20px 0 10px 0;
+        }
+        #formpart .formtext span{
+            font-size: 14px;
+        }
+        footer .row .about {
+            display: flex;
+            column-gap: 10px;
+            margin-left: 0px;
+            margin-top: 20px;
+            flex-direction: column;
+            text-align: center;
+        }
+        .hr{
+            height: 1px;
+            width: 300px;
+          
+        }
+        
+        footer .row .about h4 {
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 28px;
+        }
+        footer .row .about ul li a {
+            color: #7B7B7B;
+            line-height: 40px;
+            font-size: 9px;
+        }
+        footer .row .about ul li a {
+            color: #7B7B7B;
+            line-height: 40px;
+            font-size: 20px;
+        }
+        footer .row .about h4 {
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 28px;
+        }
+        footer .lastlogo p {
+            font-size: 18px;
+            line-height: 26px;
+        }
+        #agence .title h3{
+            font-size: 45px;
+            font-weight: 700;
+            max-width: 518px;
+            margin: 0 auto;
+          }
+          #agence .title p{
+              font-size: 16px;
+              font-weight: 400;
+              max-width: 802px;
+              line-height: 26px;
+              margin-bottom: 130px;
+            }
+           #agence .row .main  {
+            display: flex;
+            flex-direction: column;
+            row-gap: 88px;
+           }
+           #agence .agence{
+              width: 428px;
+              height: 428px;
+              object-fit: cover;
+      
+           }
+      
+
+        
+     }
+     @media (max-width: 991.98px) { 
+        .navbar {
+            padding: 0;
+            position: static;
+            
+            background-color: bisque;
+        }
+        #bannerpart h1 {
+            font-size: 25px;
+            font-weight: 700;
+            line-height: 120%;
+            max-width: 950px;
+            color: white;
+            text-align: center;
+        }
+        #bannerpart .overlay {
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0,.6);
+            position: absolute;
+            padding-top: 90px;
+        }
+        #formpart .formtext h3 {
+            font-size: 25px;
+            font-weight: 700;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        footer .row .about ul li a {
+            color: #7B7B7B;
+            line-height: 40px;
+            font-size: 21px;
+        }
+        footer .row .about h4 {
+            font-size: 19px;
+            font-weight: 600;
+            margin-bottom: 28px;
+        }
+        footer p {
+            font-size: 19px;
+            font-weight: 400;
+            line-height: 26px;
+            margin-top: 30px;
+        }
+        .navbar-toggler{
+            border: none;
+        }
+        .navbar-toggler:focus {
+            text-decoration: none;
+            outline: 0;
+            box-shadow: none;
+            
+        }
+        .navbar-collapse {
+            
+            align-items: center;
+            padding: 15px;
+            background: rgb(147, 130, 109);
+           
+        }
+        .navbar-collapse ul{
+             
+            column-gap: 5px !important;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        
+        .navbar-toggler i{
+            color:  #4756DF;
+        }
+        
+        #bannerpart p {
+            font-size: 12px;
+            line-height: 19px;
+            margin: 10px 0 10px 0;
+        }
+        
+        #bannerpart .mainbannerslider {
+            height: 330px;
+           
+        }
+        
+        .btn1 {
+            padding: 4px 16px;
+            
+            font-size: 12px;
+            margin-top: 6px;
+           
+        }
+        #bannerpart .bannerslider ul{
+            column-gap: 5px;
+        }
+        #bannerpart .bannerslider ul button {
+            
+            height: 16px;
+            width: 16px;
+            
+        }
+        #textpart{
+            padding-top: 55px;
+        }
+        #textpart .container .main {
+            
+            padding: 15px;
+            border-radius: 10px;
+            
+        }
+        #textpart .main .row .left h3 {
+            font-size: 21px;
+            line-height: auto;
+            text-align: center;
+           
+        }
+        #textpart .main .row .left h2 {
+            font-size: 20px;
+        line-height: 16px;
+        margin: 0 auto;
+            
+        }
+        #textpart .container .main .right {
+            flex-direction: column;
+            text-align: center;
+        }
+        
+        #textpart .main .row .left h2 {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        #textpart .main .row .right .one h3 {
+        
+            border: 1px solid skyblue;
+            border-radius: 10px;
+        }
+        #textpart .main .row .right .one h3 {
+            font-size: 32px;
+            font-weight: 700;
+            color: #151515;
+            margin-bottom: 20px;
+        }
+        #servicepart {
+            padding:50px 0;
+        }
+        #servicepart .title h2 {
+           
+            font-size: 25px;
+           
+        }
+        #servicepart .title p {
+          
+            font-size: 13px;
+            line-height: 22px;
+           
+           
+        }
+        #servicepart .row .text {
+            
+            padding: 30px 15px;
+            
+        }
+        #servicepart .row .text h3 {
+            margin: 30px auto 20px 0;
+            font-size: 20px;
+            
+        }
+        
+        img, svg {
+            vertical-align: middle;
+            width: 70px;
+        }
+        
+        #recentpart {
+            padding-top: 31px;
+        }
+        #recentpart .container .title h3 {
+            font-size: 25px;
+            
+        }
+        #recentpart .container .title p {
+            font-size: 13px;
+          
+            line-height: 22px;
+           
+        }
+        #recentpart .row .main {
+            text-align: center;
+            color: white;
+            border-radius: 25px;
+            margin-top: 106px;
+            overflow: hidden;
+            
+        }
+        #recentpart .row .main img{
+            width: 100%;
+        }
+        #recentpart .row .main h3 {
+            font-size: 14px;
+        
+        }
+        #recentpart .row .main p {
+            font-size: 12px;
+            line-height: 15px;
+            width: 90%;
+            margin: 0 auto;
+           
+        }
+        #agence .title h3 {
+            font-size: 25px;
+           
+        }
+        #agence .title p {
+            font-size: 11px;
+           
+        }
+        #agence .agence {
+            width: 100%;
+            height: auto;
+            display: none;
+        }
+        #agence{
+           padding: 50px 0;
+        }
+        #agence .main img{
+            width: 40px;
+        }
+        #agence .main .text h3{
+            font-size: 18px;
+            color: rgb(174, 166, 166);
+        }
+        #agence .main .text p{
+            font-size: 14px;
+            line-height: 21px;
+            color: rgb(190, 180, 180);
+        }
+        #agence .main .top{
+            display: flex;
+            align-items: center;
+            column-gap: 20px;
+        }
+        #agence .main .top:nth-child(even){
+            flex-direction: row-reverse;
+            text-align: right;
+        }
+        #agence .row .main {
+           
+            row-gap: 20px;
+        }
+        #agence .row{
+            row-gap: 20px;
+            background:url(../images/agence.jpg) no-repeat center /cover;
+            padding-top: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        #agence .row::after{
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: -1;
+        }
+        #reviewpart .title h3 {
+            font-size: 28px;
+            
+        }
+        #reviewpart .title p {
+            font-size: 15px;
+            
+        }
+        #reviewpart .child{
+            
+            padding: 20px 30px;
+           
+        }
+        #reviewpart .child {
+            font-size: 10px;
+        }
+         #reviewpart .child img {
+           height: 63px;
+           
+        }
+        .reviewslider .prev{
+            width: 20px;
+            height:20px; 
+            line-height: 20px;
+        }
+        .reviewslider .next{
+            width: 20px;
+            height:20px;
+            line-height: 20px;
+        }
+    
+        #formpart form {
+            width: 100%;
+           
+        }
+        #formpart form h3 {
+           
+            font-size: 20px;
+           
+        }
+        #formpart form button {
+            font-size: 11px;
+            line-height: 26px;
+            font-weight: 600;
+            border-radius: 10px;
+            height: 36px;
+            width: 205px;
+            background: #6A4DF4;
+            border: none;
+            color: white;
+        }
+        #formpart form {
+           
+            padding: 30px 20px;
+            
+        }
+        #formpart .formtext{
+            text-align: center;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        #formpart .formtext h3 {
+            font-size: 25px;
+            font-weight: 700;
+            max-width:500px ;
+        }
+        #formpart .formtext p {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 15px;
+            margin: 20px 0 10px 0;
+        }
+        #formpart .formtext span{
+            font-size: 14px;
+        }
+        footer .row .about {
+            display: flex;
+            column-gap: 10px;
+            margin-left: 0px;
+            margin-top: 20px;
+            flex-direction: column;
+            text-align: center;
+        }
+        .hr{
+            height: 1px;
+            width: 300px;
+          
+        }
+        
+        footer .row .about h4 {
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 28px;
+        }
+        footer .row .about ul li a {
+            color: #7B7B7B;
+            line-height: 40px;
+            font-size: 9px;
+        }
+        footer .row .about ul li a {
+            color: #7B7B7B;
+            line-height: 40px;
+            font-size: 20px;
+        }
+        footer .row .about h4 {
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 28px;
+        }
+        footer .lastlogo p {
+            font-size: 18px;
+            line-height: 26px;
+        }
+        #agence .title h3{
+            font-size: 45px;
+            font-weight: 700;
+            max-width: 518px;
+            margin: 0 auto;
+          }
+          #agence .title p{
+              font-size: 16px;
+              font-weight: 400;
+              max-width: 802px;
+              line-height: 26px;
+              margin-bottom: 130px;
+            }
+           #agence .row .main  {
+            display: flex;
+            flex-direction: column;
+            row-gap: 88px;
+           }
+           #agence .agence{
+              width: 428px;
+              height: 428px;
+              object-fit: cover;
+      
+           }
+           #textpart .main .row .left h2 {
+            font-size: 22px;
+            line-height: 31px;
+            margin: 0 auto;
+        }
+        #textpart .main .row .left h3 {
+            font-size: 21px;
+            line-height: auto;
+            text-align: center;
+            margin-bottom: 15px;
+            margin-top: 60px;
+        }
+        
+       
+     }
+     @media (max-width: 1199.98px) {
+        .navbar {
+            padding: 0;
+            position: static;
+            
+            background-color: bisque;
+        }
+        #bannerpart h1 {
+            font-size: 25px;
+            font-weight: 700;
+            line-height: 120%;
+            max-width: 950px;
+            color: white;
+            text-align: center;
+        }
+        #bannerpart .overlay {
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0,.6);
+            position: absolute;
+            padding-top: 90px;
+        }
+        #formpart .formtext h3 {
+            font-size: 25px;
+            font-weight: 700;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        footer .row .about ul li a {
+            color: #7B7B7B;
+            line-height: 40px;
+            font-size: 21px;
+        }
+        footer .row .about h4 {
+            font-size: 19px;
+            font-weight: 600;
+            margin-bottom: 28px;
+        }
+        footer p {
+            font-size: 19px;
+            font-weight: 400;
+            line-height: 26px;
+            margin-top: 30px;
+        }
+        .navbar-toggler{
+            border: none;
+        }
+        .navbar-toggler:focus {
+            text-decoration: none;
+            outline: 0;
+            box-shadow: none;
+            
+        }
+        .navbar-collapse {
+            
+            align-items: center;
+            padding: 15px;
+            background: rgb(147, 130, 109);
+           
+        }
+        .navbar-collapse ul{
+             
+            column-gap: 5px !important;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        
+        .navbar-toggler i{
+            color:  #4756DF;
+        }
+        
+        #bannerpart p {
+            font-size: 12px;
+            line-height: 19px;
+            margin: 10px 0 10px 0;
+        }
+        
+        #bannerpart .mainbannerslider {
+            height: 330px;
+           
+        }
+        
+        .btn1 {
+            padding: 4px 16px;
+            
+            font-size: 12px;
+            margin-top: 6px;
+           
+        }
+        #bannerpart .bannerslider ul{
+            column-gap: 5px;
+        }
+        #bannerpart .bannerslider ul button {
+            
+            height: 16px;
+            width: 16px;
+            
+        }
+        #textpart{
+            padding-top: 55px;
+        }
+        #textpart .container .main {
+            
+            padding: 15px;
+            border-radius: 10px;
+            
+        }
+        #textpart .main .row .left h3 {
+            font-size: 21px;
+            line-height: auto;
+            text-align: center;
+           
+        }
+        #textpart .main .row .left h2 {
+            font-size: 20px;
+        line-height: 16px;
+        margin: 0 auto;
+            
+        }
+        #textpart .container .main .right {
+            flex-direction: column;
+            text-align: center;
+        }
+        
+        #textpart .main .row .left h2 {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        #textpart .main .row .right .one h3 {
+        
+            border: 1px solid skyblue;
+            border-radius: 10px;
+        }
+        #textpart .main .row .right .one h3 {
+            font-size: 32px;
+            font-weight: 700;
+            color: #151515;
+            margin-bottom: 20px;
+        }
+        #servicepart {
+            padding:50px 0;
+        }
+        #servicepart .title h2 {
+           
+            font-size: 25px;
+           
+        }
+        #servicepart .title p {
+          
+            font-size: 13px;
+            line-height: 22px;
+           
+           
+        }
+        #servicepart .row .text {
+            
+            padding: 30px 15px;
+            
+        }
+        #servicepart .row .text h3 {
+            margin: 30px auto 20px 0;
+            font-size: 20px;
+            
+        }
+        
+        img, svg {
+            vertical-align: middle;
+            width: 70px;
+        }
+        
+        #recentpart {
+            padding-top: 31px;
+        }
+        #recentpart .container .title h3 {
+            font-size: 25px;
+            
+        }
+        #recentpart .container .title p {
+            font-size: 13px;
+          
+            line-height: 22px;
+           
+        }
+        #recentpart .row .main {
+            text-align: center;
+            color: white;
+            border-radius: 25px;
+            margin-top: 106px;
+            overflow: hidden;
+            
+        }
+        #recentpart .row .main img{
+            width: 100%;
+        }
+        #recentpart .row .main h3 {
+            font-size: 14px;
+        
+        }
+        #recentpart .row .main p {
+            font-size: 12px;
+            line-height: 15px;
+            width: 90%;
+            margin: 0 auto;
+           
+        }
+        #agence .title h3 {
+            font-size: 25px;
+           
+        }
+        #agence .title p {
+            font-size: 11px;
+           
+        }
+        #agence .agence {
+            width: 100%;
+            height: auto;
+            display: none;
+        }
+        #agence{
+           padding: 50px 0;
+        }
+        #agence .main img{
+            width: 40px;
+        }
+        #agence .main .text h3{
+            font-size: 18px;
+            color: rgb(174, 166, 166);
+        }
+        #agence .main .text p{
+            font-size: 14px;
+            line-height: 21px;
+            color: rgb(190, 180, 180);
+        }
+        #agence .main .top{
+            display: flex;
+            align-items: center;
+            column-gap: 20px;
+        }
+        #agence .main .top:nth-child(even){
+            flex-direction: row-reverse;
+            text-align: right;
+        }
+        #agence .row .main {
+           
+            row-gap: 20px;
+        }
+        #agence .row{
+            row-gap: 20px;
+            background:url(../images/agence.jpg) no-repeat center /cover;
+            padding-top: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        #agence .row::after{
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: -1;
+        }
+        #reviewpart .title h3 {
+            font-size: 28px;
+            
+        }
+        #reviewpart .title p {
+            font-size: 15px;
+            
+        }
+        #reviewpart .child{
+            
+            padding: 20px 30px;
+           
+        }
+        #reviewpart .child {
+            font-size: 10px;
+        }
+         #reviewpart .child img {
+           height: 63px;
+           
+        }
+        .reviewslider .prev{
+            width: 20px;
+            height:20px; 
+            line-height: 20px;
+        }
+        .reviewslider .next{
+            width: 20px;
+            height:20px;
+            line-height: 20px;
+        }
+    
+        #formpart form {
+            width: 100%;
+           
+        }
+        #formpart form h3 {
+           
+            font-size: 20px;
+           
+        }
+        #formpart form button {
+            font-size: 11px;
+            line-height: 26px;
+            font-weight: 600;
+            border-radius: 10px;
+            height: 36px;
+            width: 205px;
+            background: #6A4DF4;
+            border: none;
+            color: white;
+        }
+        #formpart form {
+           
+            padding: 30px 20px;
+            
+        }
+        #formpart .formtext{
+            text-align: center;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        #formpart .formtext h3 {
+            font-size: 25px;
+            font-weight: 700;
+            max-width:500px ;
+        }
+        #formpart .formtext p {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 15px;
+            margin: 20px 0 10px 0;
+        }
+        #formpart .formtext span{
+            font-size: 14px;
+        }
+        footer .row .about {
+            display: flex;
+            column-gap: 10px;
+            margin-left: 0px;
+            margin-top: 20px;
+            flex-direction: column;
+            text-align: center;
+        }
+        .hr{
+            height: 1px;
+            width: 300px;
+          
+        }
+        
+        footer .row .about h4 {
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 28px;
+        }
+        footer .row .about ul li a {
+            color: #7B7B7B;
+            line-height: 40px;
+            font-size: 9px;
+        }
+        footer .row .about ul li a {
+            color: #7B7B7B;
+            line-height: 40px;
+            font-size: 20px;
+        }
+        footer .row .about h4 {
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 28px;
+        }
+        footer .lastlogo p {
+            font-size: 18px;
+            line-height: 26px;
+        }
+        #agence .title h3{
+            font-size: 45px;
+            font-weight: 700;
+            max-width: 518px;
+            margin: 0 auto;
+          }
+          #agence .title p{
+              font-size: 16px;
+              font-weight: 400;
+              max-width: 802px;
+              line-height: 26px;
+              margin-bottom: 130px;
+            }
+           #agence .row .main  {
+            display: flex;
+            flex-direction: column;
+            row-gap: 88px;
+           }
+           #agence .agence{
+              width: 428px;
+              height: 428px;
+              object-fit: cover;
+      
+           }
+           #textpart .main .row .left h2 {
+            font-size: 22px;
+            line-height: 31px;
+            margin: 0 auto;
+        }
+        #textpart .main .row .left h3 {
+            font-size: 21px;
+            line-height: auto;
+            text-align: center;
+            margin-bottom: 15px;
+            margin-top: 60px;
+        }
+       }
+    
+    
+   
+    
