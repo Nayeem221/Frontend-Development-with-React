@@ -1,0 +1,139 @@
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background: lightgreen;
+
+}
+.Bangladesh{
+    width: 1000px;
+    height: 600px;
+    position: relative;
+    margin:100px auto ;
+    background: green;
+
+}
+.b1{
+    height: 300px;
+    width: 300px;
+    background: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+}
+.pakistan{
+    width: 1000px;
+    height: 600px;
+    position: relative;
+    margin:100px auto ;
+    background: green;
+    
+}
+.p1{
+    height: 100%;
+    width: 30%;
+    position:absolute ;
+    top: 100%;
+    left: 0;
+    background: white;
+    transform: translateY(-100%);
+}
+.india{
+    width: 1000px;
+    height: 600px;
+    position: relative;
+    margin:100px auto ;
+    background: green;
+
+}
+.i1{
+    height:33.33% ;
+    width: 100%;
+    position:absolute ;
+   
+    background: rgb(219, 110, 15);
+
+}
+.i2{
+    height:33.33% ;
+    width: 100%;
+    position:absolute ;
+   
+    background: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.Canada{
+    width: 1000px;
+    height: 600px;
+    position: relative;
+    margin:100px auto ;
+    background: green;
+
+}
+.c1{
+    height: 100%;
+    width: 30%;
+    position:absolute ;
+    top: 100%;
+    left: 0;
+    background: red;
+    transform: translateY(-100%);
+
+}
+.c2{
+    height: 100%;
+    width: 40%;
+    position:absolute ;
+    top: 100%;
+    left: 0;
+    background: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+
+}
+.c3{
+    height: 100%;
+    width: 30%;
+    position:absolute ;
+    
+    background: red;
+    top: 100%;
+    left: 100%;
+    transform: translate(-100%,-100%);
+
+}
+.one{
+    height: 250px;
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+.two{
+    height: 200px;
+    width: 250px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+.pa{
+    height: 100%;
+    width: 70%;
+    top: 0;
+    left: 100%;
+    transform: translate(-100%,0);
+    position: absolute;
+    
+
+}
