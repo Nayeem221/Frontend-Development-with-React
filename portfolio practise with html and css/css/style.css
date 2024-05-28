@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+/* h1,p,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+} */
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+padding: 0;   
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #F0F0F6;
+}
+.container{
+    max-width: 1344px;
+    margin: 50px auto;
+}
+.left .main .top{
+    width: 380px;
+    height: 867px;
+    background: #FFFFFF;
+    text-align: center;
+   
+}
+.left   {
+    padding: 47px 32px 55px 53px;
+}
+.left .main .top .logo1 {
+   margin-top: 50px;
+   margin-bottom: 31px;
+}
+.left .main .top .icon .insta{
+   margin: 0 8px 0 8px;
+}
+.left .main .top .icon .link{
+    margin: 0 8px 0 8px;
+}
+
+.left .main .top .icon .you{
+    margin-right: 8px;
+}
+
+
+.left .main .top .hl{
+    height: 1px;
+    width: 220px;
+    background: #F0F0F6;
+    margin: 25px auto;
+   
+}
+.left .main .top p{
+margin: 15px 0 15px 0;
+}
+.left .main .middle {
+    width: 220px;
+    height: 111px;
+   
+    margin: 0 auto;
+   
+}
+.left .main .middle .text{
+    display: flex;
+    justify-content: space-between;
+}
+.left .main .middle .text h3{
+font-size: 15px;
+line-height: 24px;
+color: #2B2B2B;
+background: #FFB400;
+margin-bottom: 9px;
+}
+.left .main .middle .text p{
+font-size: 15px;
+line-height: 24px;
+color: #2B2B2B;
+margin: 0;
+}
+.left .main .bottom {
+    width: 220px;
+    height: 111px;
+  
+    margin: 0 auto;
+   
+}
+.left .main .bottom .text1{
+    display: flex;
+  column-gap: 15px;
+}
+.left .main .bottom .text1 p{
+    margin: 0;
+    font-size: 15px;
+    line-height: 24px;
+    color: #767676;
+}
+.left .main .bottom button{
+    width: 220px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+   background: #FFB400;
+   border: none;
+   
+}
+.left .main .bottom .frame{
+    margin-left: 3px;
+}
+.main .mid{
+    height:477px ;
+    width: 970px;
+    background: url(../images/Group\ 243.png) no-repeat center / cover;
+    margin: 0 27px 0 30px;
+    padding: 93px 48px 74px 60px;
+}
+.main .mid .mid1{
+    height: 867px;
+    width: 970px;
+}
+.left .main{
+    display: flex;
+    background: #F0F0F6;
+}
+.main .mid1 h1{
+font-size: 48px;
+font-weight: 700;
+line-height: 123%;
+max-width: 500px;
+}
+
+.main .mid1 p{
+    line-height: 24px;
+    font-size: 16px;
+    max-width: 424px;
+    margin: 18px 0 41px 0;
+    color: #767676;
+}
+.main .mid1 button{
+    font-size: 16px;
+    font-weight: 500;
+    width: 154px;
+    height: 51px;
+    background: #FFB400;
+}
+
+.main .mid1 .logo5{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+   
+}
+.main .mid1 .last {
+  width: 970px;
+  height: 50px;
+  background:white;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+.main .mid1 .last p{
+  margin: 0 auto;
+}
+.main .right{
+width: 100px;
+height: 867px;
+background: white;
+text-align: center;
+}
+.main .right .stable img{
+    margin: 50px 0 174px 0;
+}
+.main .right .academic ul{
+   padding:0;
+   text-align: center;
+    display:flex ;
+    row-gap: 54px;
+    flex-direction: column;
+}
+.left .main .bottom .cv{
+    margin-bottom: 70px;
+}
