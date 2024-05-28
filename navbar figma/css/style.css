@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,600&display=swap');
+
+nav{
+padding: 300px 0;
+background: #000;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    text-transform: capitalize;
+    font-family: 'Rubik',sans-serif;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style-type: none;
+}
+.button1{
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 8px;
+    border: none;
+   
+}
+.button2{
+    background: #5A45F2;
+    color: white;
+   padding: 16px;
+   border-radius: 8px;
+}
+nav .container{
+    background: white;
+    width: 995px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 24px 8px 16px;
+    border-radius: 8px;
+}
+nav .container .section1 ul{
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+}
+nav .container .section1 ul li a{
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 300;
+}
+nav .container .section2{
+    width:340px;
+}
+nav .container .section2 form{
+    padding: 12px;
+    display: flex;
+    column-gap: 8px;
+    border: 1px solid #A7BAC5;
+    border-radius: 8px;
+}
+nav .container .section2 form input{
+    border: none;
+    outline: none;
+    color: #A7BAC5;
+    width: 100%;
+}
+nav .container .section3 ul{
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+
+
+}
+nav .container .section3 ul li a{
+    font-size: 14px;
+    line-height: 16px;
+}
+.one{
+    border: 1px solid royalblue;
+    border-radius: 8px;
+    padding: 16px;
+}
